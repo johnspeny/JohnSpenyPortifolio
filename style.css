@@ -58,6 +58,9 @@ body {
 
 .headline__nameTwo {
   color: #36b37e;
+  font-size: 22px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .headline__social {
@@ -66,7 +69,7 @@ body {
   list-style: none;
 }
 
-.headline__social > li > a > img {
+.headline__social > li > a > i {
   margin-right: 10px;
   color: #505f79;
   font-size: 20px;
