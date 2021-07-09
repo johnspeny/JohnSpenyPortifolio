@@ -1,59 +1,56 @@
-html, body{
-    font-size: 20px;
-    margin: 0px 20px;
+html,
+body {
+  font-size: 20px;
+  margin: 0 20px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .header__logo {
-    color: #6070FF;
+  color: #6070ff;
 }
 
 .header__hamburger:hover {
-    color: red;
-    cursor: pointer;
+  color: red;
+  cursor: pointer;
 }
 
 .headline {
-    background-image: url("images/Header-llustration-desktop@2x.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 80vh;
+  background-image: url("images/Header-llustration-desktop@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
 }
 
 .headline__inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .headline__bodyText {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
+  color: #172b4d;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .headline__nameOne {
-    color: #172B4D;
+  color: #172b4d;
 }
 
 .headline__nameTwo {
-    color: #36B37E;
-}
-
-.headline__bodyText {
-    color: #172B4D;
+  color: #36b37e;
 }
 
 .headline__social > span > a > img {
-    font-size: 20px;
-    padding: 10px;
-    color: #505F79;
+  font-size: 20px;
+  padding: 10px;
+  color: #505f79;
 }
-
