@@ -2,7 +2,7 @@
 
 > Portifolio Project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](Untitled.png)
 
 Additional description about the project and its features.
 
