@@ -11,7 +11,19 @@ body {
 }
 
 .header__logo {
-  color: #6070ff;
+  color: #28352f;
+}
+
+.header__logo > a {
+  color: #28352f;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header__logo > a:hover {
+  color: #457961;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .header__hamburger:hover {
@@ -48,8 +60,14 @@ body {
   color: #36b37e;
 }
 
-.headline__social > span > a > img {
-  font-size: 20px;
-  padding: 10px;
+.headline__social {
+  display: flex;
+  padding: 20px;
+  list-style: none;
+}
+
+.headline__social > li > a > img {
+  margin-right: 10px;
   color: #505f79;
+  font-size: 20px;
 }
