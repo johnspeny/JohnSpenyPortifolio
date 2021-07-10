@@ -117,9 +117,9 @@ body {
 
 .work__language p {
   justify-content: center;
-  background-color: #ebf0ee;
+  background-color: #EBF0EE;
   border-radius: 4px;
-  padding: 5px;
+  padding: 6px;
   font-size: 12px;
   font-family: Inter;
   font-style: normal;
@@ -129,7 +129,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  color: #3A4A42;
+  color: #31a373;
 }
 
 .card > img {
@@ -171,6 +171,14 @@ body {
   border: none;
   border-radius: 5px;
   background-color: #3ceea4;
+}
+
+.cardW {
+  background-color: #EBF0EE;
+}
+
+.langW > p {
+  background-color: #FFFFFF;
 }
 
 .headline__form > span {
@@ -272,12 +280,13 @@ input[type=text], input[type=email], textarea {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 3px solid #ccc;
+  border: 2px solid #ccc;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
+  border-radius: 4px;
 }
 
 input[type=text]:focus, input[type=email]:focus, textarea:focus {
-  border: 3px solid lightblue;
+  border: 3px solid #36b37f;
 }
