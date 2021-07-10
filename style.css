@@ -1,0 +1,76 @@
+html,
+body {
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header__logo {
+  color: #28352f;
+}
+
+.header__logo > a {
+  color: #28352f;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header__logo > a:hover {
+  color: #457961;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header__hamburger:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.headline {
+  background-image: url("images/Header-llustration-desktop@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+
+.headline__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.headline__bodyText {
+  color: #172b4d;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headline__nameOne {
+  color: #172b4d;
+}
+
+.headline__nameTwo {
+  color: #36b37e;
+  font-size: 22px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headline__social {
+  display: flex;
+  padding: 20px;
+  list-style: none;
+}
+
+.headline__social > li > a > i {
+  margin-right: 10px;
+  color: #505f79;
+  font-size: 20px;
+}
