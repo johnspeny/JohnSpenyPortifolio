@@ -76,56 +76,86 @@ body {
 }
 
 .work__section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.grid-container {
   display: grid;
-  grid-template-columns: auto;
-  padding: 100px 24px 24px 24px;
+  grid-template-rows: repeat(5, auto);
+  width: 100%;
 }
 
-.item {
-  border: 1px solid #dfe1e6;
+.work__section > h1 {
+  color: #172b4d;
   text-align: center;
-  padding: 16px;
-  border-radius: 5px;
-  margin-bottom: 50px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
 }
 
-.item > img {
+.work__list {
+  padding: 0%;
+  list-style-type: none;
+  padding-bottom: 10px;
+
+}
+
+.card {
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  align-content: space-between;
+  border: 1px solid #dfe1e6;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.work__language {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-grow: 0;
+}
+
+.work__language p {
+  justify-content: center;
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #3A4A42;
+}
+
+.card > img {
   width: 100%;
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
-.item > h2 {
+.card > h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
   margin-top: 0;
   margin-bottom: 0;
+  text-align: center;
 }
 
-.item > ul {
-  display: flex;
-  list-style: none;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-}
-
-.item ul li {
-  margin: 10px;
-  background-color: #ebf0ee;
-  border-radius: 5px;
-}
-
-.item > span {
+.card > span {
   display: flex;
   justify-content: center;
 }
 
-.item > span > button {
+.card > span > button {
   font-size: 13px;
   color: white;
   height: 30px;
@@ -134,7 +164,7 @@ body {
   background-color: #36b37f;
 }
 
-.item > span > button:hover {
+.card > span > button:hover {
   font-size: 13px;
   color: white;
   height: 30px;
@@ -154,11 +184,15 @@ body {
 }
 
 .aboutme__section > .headline__inner > span > button {
-  font-size: 13px;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 18px;
   color: white;
-  height: 30px;
+  padding: 12px;
   border: none;
-  border-radius: 5px;
+  height: 48px;
+  width: 159px;
+  border-radius: 4px;
   background-color: #36b37f;
 }
 
@@ -177,7 +211,7 @@ body {
   align-items: center;
 }
 
-.contact__section {
+.aboutme__section {
   background-image: url("images/Header-llustration-desktop@2x.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -210,4 +244,40 @@ input {
   border: none;
   border-radius: 5px;
   background-color: #36b37f;
+}
+
+.headline__contact > h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.headline__contact > h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #172B4D;
+}
+
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+  border: 3px solid lightblue;
 }
