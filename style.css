@@ -84,7 +84,6 @@ body {
 .work__section > h1 {
   color: #172b4d;
   text-align: center;
-  font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -95,7 +94,6 @@ body {
   padding: 0%;
   list-style-type: none;
   padding-bottom: 10px;
-
 }
 
 .card {
@@ -117,11 +115,10 @@ body {
 
 .work__language p {
   justify-content: center;
-  background-color: #EBF0EE;
+  background-color: #ebf0ee;
   border-radius: 4px;
   padding: 6px;
   font-size: 12px;
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   line-height: 16px;
@@ -139,7 +136,6 @@ body {
 }
 
 .card > h2 {
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -174,11 +170,11 @@ body {
 }
 
 .cardW {
-  background-color: #EBF0EE;
+  background-color: #ebf0ee;
 }
 
 .langW > p {
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .headline__form > span {
@@ -192,7 +188,6 @@ body {
 }
 
 .aboutme__section > .headline__inner > span > button {
-  font-family: Inter;
   font-style: normal;
   font-size: 18px;
   color: white;
@@ -255,7 +250,6 @@ input {
 }
 
 .headline__contact > h2 {
-  font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -265,17 +259,17 @@ input {
 }
 
 .headline__contact > h3 {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
-
-input[type=text], input[type=email], textarea {
+input[type=text],
+input[type=email],
+textarea {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -287,6 +281,8 @@ input[type=text], input[type=email], textarea {
   border-radius: 4px;
 }
 
-input[type=text]:focus, input[type=email]:focus, textarea:focus {
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
   border: 3px solid #36b37f;
 }
